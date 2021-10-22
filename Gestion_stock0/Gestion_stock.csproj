@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F8D7944-5FB4-432E-88A0-804975990E3A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gestion_stock0</RootNamespace>
+    <AssemblyName>Gestion_stock0</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CLS_Produit.cs" />
+    <Compile Include="Classes\CLS_Vente.cs" />
+    <Compile Include="Commande.cs">
+      <DependentUpon>Gestion_Stock.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Connexion\ClassConnexion.cs" />
+    <Compile Include="Connexion\Connexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connexion\Connexion.designer.cs">
+      <DependentUpon>Connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fournisseur.cs">
+      <DependentUpon>Gestion_Stock.tt</DependentUpon>
+    </Compile>
+    <Compile Include="G.C\AjouterCommandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G.C\AjouterCommandes.designer.cs">
+      <DependentUpon>AjouterCommandes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.C\ClassCommande.cs" />
+    <Compile Include="G.C\GestionCommandes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="G.C\GestionCommandes.designer.cs">
+      <DependentUpon>GestionCommandes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.C\ModifierCommandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G.C\ModifierCommandes.designer.cs">
+      <DependentUpon>ModifierCommandes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.P\Afficher_Produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G.P\Afficher_Produit.Designer.cs">
+      <DependentUpon>Afficher_Produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.F\Ajouter_Frounisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G.F\Ajouter_Frounisseur.designer.cs">
+      <DependentUpon>Ajouter_Frounisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.P\Ajouter_prod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G.P\Ajouter_prod.designer.cs">
+      <DependentUpon>Ajouter_prod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.F\Cls_Fournisseur.cs" />
+    <Compile Include="G.P\Cls_Produit.cs" />
+    <Compile Include="G.F\Afficher_Fournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G.F\Afficher_Fournisseur.Designer.cs">
+      <DependentUpon>Afficher_Fournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.F\Fournisseurs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="G.F\Fournisseurs.designer.cs">
+      <DependentUpon>Fournisseurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.F\Modifier_fournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G.F\Modifier_fournisseur.designer.cs">
+      <DependentUpon>Modifier_fournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.P\Modifier_Prod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G.P\Modifier_Prod.designer.cs">
+      <DependentUpon>Modifier_Prod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Stock.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_Stock.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Stock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_Stock.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Stock.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gestion_Stock.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="GV\GestionVentes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GV\GestionVentes.designer.cs">
+      <DependentUpon>GestionVentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G.P\ProduitD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="G.P\ProduitD.designer.cs">
+      <DependentUpon>ProduitD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produit.cs">
+      <DependentUpon>Gestion_Stock.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Statistics\Statistique.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistics\Statistique.Designer.cs">
+      <DependentUpon>Statistique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilisateur.cs">
+      <DependentUpon>Gestion_Stock.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vente.cs">
+      <DependentUpon>Gestion_Stock.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Connexion\Connexion.resx">
+      <DependentUpon>Connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.C\AjouterCommandes.resx">
+      <DependentUpon>AjouterCommandes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.C\GestionCommandes.resx">
+      <DependentUpon>GestionCommandes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.C\ModifierCommandes.resx">
+      <DependentUpon>ModifierCommandes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.P\Afficher_Produit.resx">
+      <DependentUpon>Afficher_Produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.F\Ajouter_Frounisseur.resx">
+      <DependentUpon>Ajouter_Frounisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.P\Ajouter_prod.resx">
+      <DependentUpon>Ajouter_prod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.F\Afficher_Fournisseur.resx">
+      <DependentUpon>Afficher_Fournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.F\Fournisseurs.resx">
+      <DependentUpon>Fournisseurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.F\Modifier_fournisseur.resx">
+      <DependentUpon>Modifier_fournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.P\Modifier_Prod.resx">
+      <DependentUpon>Modifier_Prod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G.P\ProduitD.resx">
+      <DependentUpon>ProduitD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GV\GestionVentes.resx">
+      <DependentUpon>GestionVentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Statistics\Statistique.resx">
+      <DependentUpon>Statistique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Gestion_Stock.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Gestion_Stock.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Gestion_Stock.edmx.diagram">
+      <DependentUpon>Gestion_Stock.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gestion_Stock.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Gestion_Stock.edmx</DependentUpon>
+    </Content>
+    <Content Include="Gestion_Stock.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Gestion_Stock.edmx</DependentUpon>
+      <LastGenOutput>Gestion_Stock.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

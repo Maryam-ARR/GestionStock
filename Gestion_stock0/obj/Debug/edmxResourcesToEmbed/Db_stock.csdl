@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Gestion_StockModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Gestion_StockEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Commande" EntityType="Gestion_StockModel.Commande" />
+    <EntitySet Name="Fournisseur" EntityType="Gestion_StockModel.Fournisseur" />
+    <EntitySet Name="Produit" EntityType="Gestion_StockModel.Produit" />
+    <EntitySet Name="Utilisateur" EntityType="Gestion_StockModel.Utilisateur" />
+    <EntitySet Name="vente" EntityType="Gestion_StockModel.vente" />
+    <AssociationSet Name="FK_Commande_Produit" Association="Gestion_StockModel.FK_Commande_Produit">
+      <End Role="Produit" EntitySet="Produit" />
+      <End Role="Commande" EntitySet="Commande" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Fournisseur" Association="Gestion_StockModel.FK_Produit_Fournisseur">
+      <End Role="Fournisseur" EntitySet="Fournisseur" />
+      <End Role="Produit" EntitySet="Produit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vente_Produit" Association="Gestion_StockModel.FK_vente_Produit">
+      <End Role="Produit" EntitySet="Produit" />
+      <End Role="vente" EntitySet="vente" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Commande">
+    <Key>
+      <PropertyRef Name="ID_COMMANDE" />
+    </Key>
+    <Property Name="ID_COMMANDE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_PRODUIT" Type="Int32" Nullable="false" />
+    <Property Name="Quantite_Commande" Type="Int32" Nullable="false" />
+    <Property Name="Prix_Grossiste" Type="Double" Nullable="false" />
+    <Property Name="Date_Demande" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Date_Arrive" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Produit" Relationship="Gestion_StockModel.FK_Commande_Produit" FromRole="Commande" ToRole="Produit" />
+  </EntityType>
+  <EntityType Name="Fournisseur">
+    <Key>
+      <PropertyRef Name="ID_FOURNISSEUR" />
+    </Key>
+    <Property Name="ID_FOURNISSEUR" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_Fournisseur" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Adresse_fournisseur" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Tele_Fournisseur" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Email_Fournisseur" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Logo_Fournisseur" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Prenom_Fournisseur" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Produit" Relationship="Gestion_StockModel.FK_Produit_Fournisseur" FromRole="Fournisseur" ToRole="Produit" />
+  </EntityType>
+  <EntityType Name="Produit">
+    <Key>
+      <PropertyRef Name="ID_PRODUIT" />
+    </Key>
+    <Property Name="ID_PRODUIT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_Produit" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Image_Produit" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Prix_Produit" Type="Double" Nullable="false" />
+    <Property Name="Quantite_Produit" Type="Int32" Nullable="false" />
+    <Property Name="ID_FOURNISSEUR" Type="Int32" Nullable="false" />
+    <Property Name="Statut" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Date_exp" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Commande" Relationship="Gestion_StockModel.FK_Commande_Produit" FromRole="Produit" ToRole="Commande" />
+    <NavigationProperty Name="Fournisseur" Relationship="Gestion_StockModel.FK_Produit_Fournisseur" FromRole="Produit" ToRole="Fournisseur" />
+    <NavigationProperty Name="vente" Relationship="Gestion_StockModel.FK_vente_Produit" FromRole="Produit" ToRole="vente" />
+  </EntityType>
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="ID_USER" />
+    </Key>
+    <Property Name="ID_USER" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_User" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Pass_Word" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="vente">
+    <Key>
+      <PropertyRef Name="ID_VENTE" />
+    </Key>
+    <Property Name="ID_VENTE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_PRODUIT" Type="Int32" Nullable="false" />
+    <Property Name="Quantite_Vendu" Type="Int32" Nullable="false" />
+    <Property Name="Date_Vente" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Produit" Relationship="Gestion_StockModel.FK_vente_Produit" FromRole="vente" ToRole="Produit" />
+  </EntityType>
+  <Association Name="FK_Commande_Produit">
+    <End Type="Gestion_StockModel.Produit" Role="Produit" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Gestion_StockModel.Commande" Role="Commande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="ID_PRODUIT" />
+      </Principal>
+      <Dependent Role="Commande">
+        <PropertyRef Name="ID_PRODUIT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Fournisseur">
+    <End Type="Gestion_StockModel.Fournisseur" Role="Fournisseur" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Gestion_StockModel.Produit" Role="Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Fournisseur">
+        <PropertyRef Name="ID_FOURNISSEUR" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="ID_FOURNISSEUR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vente_Produit">
+    <End Type="Gestion_StockModel.Produit" Role="Produit" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Gestion_StockModel.vente" Role="vente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="ID_PRODUIT" />
+      </Principal>
+      <Dependent Role="vente">
+        <PropertyRef Name="ID_PRODUIT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

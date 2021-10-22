@@ -1,0 +1,133 @@
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe.config
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.pdb
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.dll
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.xml
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csprojAssemblyReference.cache
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.acceuil.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Produit.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_Frounisseur.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_prod.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Fournisseur.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Fournisseurs.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_fournisseur.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_Prod.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.ProduitD.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Properties.Resources.resources
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.GenerateResource.cache
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CoreCompileInputs.cache
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CopyComplete
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.exe
+C:\Users\leno\source\repos\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.pdb
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe.config
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.pdb
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Produit.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_Frounisseur.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_prod.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Fournisseur.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Fournisseurs.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_fournisseur.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_Prod.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.ProduitD.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Properties.Resources.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.exe
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.pdb
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\ProjetCs.Form1.resources
+C:\Users\Admin\Desktop\New folder\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\ProjetCs.GestionVentes.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe.config
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.pdb
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.dll
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.xml
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csprojAssemblyReference.cache
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\ProjetCs.Form1.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Produit.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_Frounisseur.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_prod.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Fournisseur.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Fournisseurs.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_fournisseur.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_Prod.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.ProduitD.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\ProjetCs.GestionVentes.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Properties.Resources.resources
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.GenerateResource.cache
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CoreCompileInputs.cache
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CopyComplete
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.exe
+C:\Users\leno\Desktop\Partie_C#-Maryam_ARROUBI\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.pdb
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csprojAssemblyReference.cache
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.GestionCommandes.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.ModifierCommandes.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Produit.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_Frounisseur.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_prod.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Fournisseur.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Fournisseurs.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_fournisseur.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_Prod.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.ProduitD.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Properties.Resources.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.GenerateResource.cache
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CoreCompileInputs.cache
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.exe
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.pdb
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe.config
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.pdb
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.dll
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.xml
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.AjouterCommandes.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Statistics.Statistique.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CopyComplete
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Form1.resources
+C:\Users\SANAE\Downloads\Projet_final_C#\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.GestionVentes.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe.config
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.exe
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\bin\Debug\Gestion_stock0.pdb
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.dll
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.xml
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csprojAssemblyReference.cache
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Form1.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.AjouterCommandes.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.GestionCommandes.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.ModifierCommandes.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Produit.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_Frounisseur.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Ajouter_prod.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Afficher_Fournisseur.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Fournisseurs.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_fournisseur.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Modifier_Prod.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.ProduitD.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.GestionVentes.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Properties.Resources.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Statistics.Statistique.resources
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.GenerateResource.cache
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CoreCompileInputs.cache
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock.csproj.CopyComplete
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.exe
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.pdb
+C:\Users\hajar\Downloads\FinalProject\Gestion_stock0\Gestion_stock0\obj\Debug\Gestion_stock0.Connexion.resources

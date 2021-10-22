@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Gestion_stockModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Commande">
+    <Key>
+      <PropertyRef Name="ID_COMMANDE" />
+    </Key>
+    <Property Name="ID_COMMANDE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_PRODUIT" Type="Int32" Nullable="false" />
+    <Property Name="Quantite_Commande" Type="Int32" Nullable="false" />
+    <Property Name="Prix_Grossiste" Type="Double" Nullable="false" />
+    <Property Name="Date_Demande" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Date_Arrive" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Produit" Relationship="Self.FK_Commande_Produit" FromRole="Commande" ToRole="Produit" />
+  </EntityType>
+  <EntityType Name="Fournisseur">
+    <Key>
+      <PropertyRef Name="ID_FOURNISSEUR" />
+    </Key>
+    <Property Name="ID_FOURNISSEUR" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_Fournisseur" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adresse_fournisseur" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tele_Fournisseur" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email_Fournisseur" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Prenom_Fournisseur" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Logo_Fournisseur" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <NavigationProperty Name="Produits" Relationship="Self.FK_Produit_Fournisseur" FromRole="Fournisseur" ToRole="Produit" />
+  </EntityType>
+  <EntityType Name="Produit">
+    <Key>
+      <PropertyRef Name="ID_PRODUIT" />
+    </Key>
+    <Property Name="ID_PRODUIT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_Produit" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Image_Produit" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Prix_Produit" Type="Double" Nullable="false" />
+    <Property Name="Quantite_Produit" Type="Int32" Nullable="false" />
+    <Property Name="ID_FOURNISSEUR" Type="Int32" Nullable="false" />
+    <Property Name="Statut" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date_exp" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Commandes" Relationship="Self.FK_Commande_Produit" FromRole="Produit" ToRole="Commande" />
+    <NavigationProperty Name="Fournisseur" Relationship="Self.FK_Produit_Fournisseur" FromRole="Produit" ToRole="Fournisseur" />
+    <NavigationProperty Name="ventes" Relationship="Self.FK_vente_Produit" FromRole="Produit" ToRole="vente" />
+  </EntityType>
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="ID_USER" />
+    </Key>
+    <Property Name="ID_USER" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_User" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Pass_Word" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vente">
+    <Key>
+      <PropertyRef Name="ID_VENTE" />
+    </Key>
+    <Property Name="ID_VENTE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_PRODUIT" Type="Int32" Nullable="false" />
+    <Property Name="Quantite_Vendu" Type="Int32" Nullable="false" />
+    <Property Name="Date_Vente" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Produit" Relationship="Self.FK_vente_Produit" FromRole="vente" ToRole="Produit" />
+  </EntityType>
+  <Association Name="FK_Commande_Produit">
+    <End Role="Produit" Type="Self.Produit" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Commande" Type="Self.Commande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="ID_PRODUIT" />
+      </Principal>
+      <Dependent Role="Commande">
+        <PropertyRef Name="ID_PRODUIT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Fournisseur">
+    <End Role="Fournisseur" Type="Self.Fournisseur" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Produit" Type="Self.Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Fournisseur">
+        <PropertyRef Name="ID_FOURNISSEUR" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="ID_FOURNISSEUR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vente_Produit">
+    <End Role="Produit" Type="Self.Produit" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="vente" Type="Self.vente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="ID_PRODUIT" />
+      </Principal>
+      <Dependent Role="vente">
+        <PropertyRef Name="ID_PRODUIT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbStockContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Commandes" EntityType="Self.Commande" />
+    <EntitySet Name="Fournisseurs" EntityType="Self.Fournisseur" />
+    <EntitySet Name="Produits" EntityType="Self.Produit" />
+    <EntitySet Name="Utilisateurs" EntityType="Self.Utilisateur" />
+    <EntitySet Name="ventes" EntityType="Self.vente" />
+    <AssociationSet Name="FK_Commande_Produit" Association="Self.FK_Commande_Produit">
+      <End Role="Produit" EntitySet="Produits" />
+      <End Role="Commande" EntitySet="Commandes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Fournisseur" Association="Self.FK_Produit_Fournisseur">
+      <End Role="Fournisseur" EntitySet="Fournisseurs" />
+      <End Role="Produit" EntitySet="Produits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vente_Produit" Association="Self.FK_vente_Produit">
+      <End Role="Produit" EntitySet="Produits" />
+      <End Role="vente" EntitySet="ventes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
